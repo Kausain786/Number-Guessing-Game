@@ -1,18 +1,3 @@
 # Number-Guessing-Game
 A simple Python-based ‘Guess the Number' game that uses random number generation and user input handling with error management.
-import random
-
-guess_the_number = random.randint(1, 100)
-
-while True:
-    try:
-        guess = int(input('Guess the number b/w 1 to 100: '))
-        if guess < guess_the_number:
-            print('Too Low')
-        elif guess > guess_the_number:
-            print('Too High')
-        else:
-            print('Congratulation You guessed the number.')
-            break
-    except ValueError:
-        print('Please enter a valid number')
+<img width="1401" height="1012" alt="Screenshot 2026-05-05 101858" src="https://github.com/user-attachments/assets/c8a8475a-36b3-4463-ba92-06378a857ab4" />
